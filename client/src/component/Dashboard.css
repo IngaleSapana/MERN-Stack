@@ -1,1 +1,191 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  /* Dropdown Style */
+  select {
+    width: 150px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* Statistics Section */
+  .statistics {
+    margin: 20px 0;
+  }
+  
+  .statistics-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .statistics-box div {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .statistics-box h3 {
+    margin: 0;
+  }
+  
+  .statistics-box p {
+    font-size: 1.2rem;
+  }
+  
+  /* Chart Section */
+  .charts {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .chart {
+    width: 50%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .loading {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #666;
+  }
+  /* PieChart Container */
+.pie-chart-container {
+  display: flex;
+  justify-content: center; /* Center align the chart */
+  align-items: center; /* Center align vertically */
+  flex-direction: column; /* Stack elements vertically */
+  padding: 20px; /* Add some padding around the chart */
+  background-color: #f2f2f2; /* Light background for the chart area */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
 
+/* Pie Chart Title */
+.pie-chart-title {
+  font-size: 1.5rem; /* Size for the chart title */
+  color: #333; /* Dark color for good contrast */
+  margin-bottom: 15px; /* Space between title and chart */
+}
+
+/* Chart Size */
+.pie-chart {
+  max-width: 500px; /* Limit the max width of the chart */
+  width: 50%; /* Make the chart responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+/* BarChart Container */
+.bar-chart-container {
+  display: flex;                   /* Flexbox for centering */
+  flex-direction: column;         /* Stack children vertically */
+  align-items: center;            /* Center align items */
+  justify-content: center;        /* Center vertically */
+  padding: 20px;                 /* Padding around the container */
+  background-color: #f8f9fa;     /* Light background color */
+  border-radius: 10px;           /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100%;                   /* Full width */
+  max-width: 600px;              /* Maximum width */
+  margin: 20px auto;             /* Center align container on page */
+}
+
+/* Bar Chart Title */
+.bar-chart-title {
+  font-size: 1.75rem;            /* Font size for title */
+  color: #333;                   /* Dark color for text */
+  margin-bottom: 15px;           /* Space below title */
+  text-align: center;            /* Center the title */
+}
+
+/* Bar Chart Area */
+.bar-chart {
+  width: 100%;                   /* Full width */
+  height: auto;                  /* Maintain aspect ratio */
+  max-width: 400px;              /* Limit maximum width of the chart */
+}
+
+/* Loading Message */
+.loading {
+  font-size: 1.2rem;             /* Font size for loading message */
+  color: #666;                   /* Grey color for text */
+  text-align: center;            /* Center the text */
+  margin-top: 20px;              /* Space above loading message */
+}
