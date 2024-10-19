@@ -1,0 +1,14 @@
+
+.App {
+  /* overflow: auto; Enable scrolling */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Use flexbox for better alignment */
+  flex-direction: column; /* Arrange children vertically */
+}
+
+h1 {
+  margin: 0; /* Remove default margin to avoid overflow issues */
+  padding: 20px; /* Add some padding for visual spacing */
+}
+
+/* Add any additional styles as needed */
